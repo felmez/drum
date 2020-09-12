@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap");
+
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Grandstander", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 30px;
+}
+
+.drum-pad {
+  border: 1px solid #666;
+  border-radius: 4px;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.drum-pad.active {
+  opacity: 0.8;
+  transform: scale(0.88);
+}
+
+.display h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
